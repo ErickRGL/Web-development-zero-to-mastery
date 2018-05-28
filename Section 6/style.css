@@ -1,0 +1,67 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(fuji.jpg);
+	background-size: cover;
+}
+
+h2 p {
+	color: #30BA68;
+	text-align: center;
+	border: 5px solid rgba(150,120,0,0.7);
+	cursor: pointer;
+}
+
+h2, p {
+	color: black;
+	text-align: center;
+	border: 5px solid rgba(150,120,0,0.7);
+	cursor: pointer;
+}
+
+p {
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: 'Indie Flower', cursive;
+	padding: 0px;
+}
+
+img {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+a {text-decoration:none;}
+
+.webtext:last-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: blue;
+}
+
+#div1 {
+	background: rgba(0,0,0,0.5);
+}
+
+#div2 {
+	background: rgba(255,0,0,0.3);
+}
